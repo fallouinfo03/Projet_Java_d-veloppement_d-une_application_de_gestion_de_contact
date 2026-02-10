@@ -35,10 +35,13 @@ Main.java : Interface utilisateur (menu interactif) et point d'entrée du progra
 
 Mes Contributions Personnelles
 -------------------------------
-Dans cette section, choisis les éléments que TU as principalement gérés (exemples ci-dessous) :
-Développement de la logique métier : Implémentation de la classe GestionnaireContacts et des requêtes SQL.
-Sécurisation : Mise en place de la vérification d'unicité des emails avant l'insertion.
-Base de données : Conception du schéma relationnel et rédaction du script de création de la table.
+J'ai été responsable de la conception et du développement de la classe Contact.java, socle du projet. Mon travail s'est concentré sur les points suivants :
+Conception du Modèle de Données : Définition de la structure de l'objet Contact (Nom, Prénom, Téléphone, Email, Catégorie) en respectant les principes d'encapsulation de la Programmation Orientée Objet (POO).
+
+Validation des Données (Regex) : Implémentation de contraintes de saisie via java.util.regex.Pattern pour garantir la validité du format des adresses email avant leur stockage en base de données.
+
+Persistance et Sérialisation : Intégration de l'interface Serializable pour permettre une évolution future vers une sauvegarde d'objets sur disque.
+Optimisation de l'affichage : Redéfinition (Override) de la méthode toString() pour assurer un affichage console ergonomique et lisible, et création de méthodes utilitaires comme getNomComplet().
 
 Installation et Utilisation
 ----------------------------
